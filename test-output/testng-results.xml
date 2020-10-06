@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matching and matching title actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Title is not matching and actual matching title is actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching and matching title actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[User Name admin]]>
+    </line>
+    <line>
+      <![CDATA[Password damager]]>
+    </line>
+    <line>
+      <![CDATA[Elements is not-present...]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching and matching title actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Elemet is present....]]>
+    </line>
+    <line>
+      <![CDATA[Application version is actiTIME 2020 Online]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="80808" started-at="2020-10-01T11:07:57Z" finished-at="2020-10-01T11:09:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="80808" started-at="2020-10-01T11:07:57Z" finished-at="2020-10-01T11:09:18Z">
+      <class name="Com_ActiTime_Test.InvalidLoginTest">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:Com_ActiTime_Test.InvalidLoginTest@546a03af]" name="precondition" is-config="true" duration-ms="14123" started-at="2020-10-01T11:08:26Z" finished-at="2020-10-01T11:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="FAIL" signature="InvalidLogin()[pri:2, instance:Com_ActiTime_Test.InvalidLoginTest@546a03af]" name="InvalidLogin" duration-ms="21216" started-at="2020-10-01T11:08:40Z" finished-at="2020-10-01T11:09:01Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at Com_ActiTime_Generic.BasePage.verifyElement(BasePage.java:43)
+at Com_ActiTime_Pages.actiTIMELoginPage.verifyErrorMessage(actiTIMELoginPage.java:52)
+at Com_ActiTime_Test.InvalidLoginTest.InvalidLogin(InvalidLoginTest.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching and matching title actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[User Name admin]]>
+            </line>
+            <line>
+              <![CDATA[Password damager]]>
+            </line>
+            <line>
+              <![CDATA[Elements is not-present...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:Com_ActiTime_Test.InvalidLoginTest@546a03af]" name="postcondition" is-config="true" duration-ms="551" started-at="2020-10-01T11:09:01Z" finished-at="2020-10-01T11:09:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogin status=FAILURE method=InvalidLoginTest.InvalidLogin()[pri:2, instance:Com_ActiTime_Test.InvalidLoginTest@546a03af] output=Title is matching and matching title actiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- Com_ActiTime_Test.InvalidLoginTest -->
+      <class name="Com_ActiTime_Test.VerifyversionTest">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:Com_ActiTime_Test.VerifyversionTest@28864e92]" name="precondition" is-config="true" duration-ms="14728" started-at="2020-10-01T11:09:02Z" finished-at="2020-10-01T11:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="FAIL" signature="Verifyversion()[pri:3, instance:Com_ActiTime_Test.VerifyversionTest@28864e92]" name="Verifyversion" duration-ms="493" started-at="2020-10-01T11:09:17Z" finished-at="2020-10-01T11:09:17Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [actiTIME 2020 ] but found [actiTIME 2020 Online]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [actiTIME 2020 ] but found [actiTIME 2020 Online]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at Com_ActiTime_Test.VerifyversionTest.Verifyversion(VerifyversionTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching and matching title actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[Elemet is present....]]>
+            </line>
+            <line>
+              <![CDATA[Application version is actiTIME 2020 Online]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verifyversion -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:Com_ActiTime_Test.VerifyversionTest@28864e92]" name="postcondition" is-config="true" duration-ms="647" started-at="2020-10-01T11:09:17Z" finished-at="2020-10-01T11:09:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verifyversion status=FAILURE method=VerifyversionTest.Verifyversion()[pri:3, instance:Com_ActiTime_Test.VerifyversionTest@28864e92] output=Title is matching and matching title actiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- Com_ActiTime_Test.VerifyversionTest -->
+      <class name="Com_ActiTime_Test.ValidLoginLogoutTest">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:Com_ActiTime_Test.ValidLoginLogoutTest@721e0f4f]" name="precondition" is-config="true" duration-ms="15453" started-at="2020-10-01T11:07:57Z" finished-at="2020-10-01T11:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="FAIL" signature="ValidLoginLogout()[pri:1, instance:Com_ActiTime_Test.ValidLoginLogoutTest@721e0f4f]" name="ValidLoginLogout" duration-ms="12853" started-at="2020-10-01T11:08:12Z" finished-at="2020-10-01T11:08:25Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at Com_ActiTime_Generic.BasePage.verifyTitle(BasePage.java:29)
+at Com_ActiTime_Test.ValidLoginLogoutTest.ValidLoginLogout(ValidLoginLogoutTest.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching and matching title actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[Title is not matching and actual matching title is actiTIME - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidLoginLogout -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:Com_ActiTime_Test.ValidLoginLogoutTest@721e0f4f]" name="postcondition" is-config="true" duration-ms="683" started-at="2020-10-01T11:08:25Z" finished-at="2020-10-01T11:08:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidLoginLogout status=FAILURE method=ValidLoginLogoutTest.ValidLoginLogout()[pri:1, instance:Com_ActiTime_Test.ValidLoginLogoutTest@721e0f4f] output=Title is matching and matching title actiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- Com_ActiTime_Test.ValidLoginLogoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
